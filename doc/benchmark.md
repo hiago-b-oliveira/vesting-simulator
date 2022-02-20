@@ -26,13 +26,13 @@ accumulate events.
 
 ##### Total time (generating test files + processing the files)
 
-| Parallel=false                                                             | Parallel=true                                               |
-|----------------------------------------------------------------------------|-------------------------------------------------------------|
-| ![test-results-single-thread](./doc/assets/test-results-single-thread.png) | [test-results-parallel](./doc/assets/test-results-parallel) |
+| Parallel=false                                                         | Parallel=true                                               |
+|------------------------------------------------------------------------|-------------------------------------------------------------|
+| ![test-results-single-thread](./assets/test-results-single-thread.png) | [test-results-parallel](./assets/test-results-parallel.png) |
 
 ##### Elapsed time
 
-![elapsed-time](/./doc/assets/elapsed-time.png)
+![elapsed-time](./assets/elapsed-time-sample.png)
 
 | Number of events | Number of employees | Elapsed Time (parallel=false) | Elapsed Time (parallel=true) |
 |------------------|---------------------|-------------------------------|------------------------------|
@@ -45,9 +45,9 @@ accumulate events.
 
 ##### JVM Used
 
-| Parallel=false                                             | Parallel=true                                           |
-|------------------------------------------------------------|---------------------------------------------------------|
-| ![jvm-parallel-false](./doc/assets/jvm-parallel-false.png) | [jvm-parallel-true](./doc/assets/jvm-parallel-true.png) |
+| Parallel=false                                         | Parallel=true                                       |
+|--------------------------------------------------------|-----------------------------------------------------|
+| ![jvm-parallel-false](./assets/jvm-parallel-false.png) | [jvm-parallel-true](./assets/jvm-parallel-true.png) |
 
 ##### Conclusion
 
